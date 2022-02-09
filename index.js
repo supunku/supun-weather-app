@@ -19,9 +19,9 @@ if(port=== undefined){
 
 
 
-var publicPathDirectory = path.join(__dirname,"./Public");
-var pagesDirectory = path.join(__dirname,"./Pages")
-var partialDirectory = path.join(__dirname,"./Pages/Partial")
+var publicPathDirectory = path.join(__dirname,"./public");
+var pagesDirectory = path.join(__dirname,"./pages")
+var partialDirectory = path.join(__dirname,"./pages/partial")
 app.use(express.static(publicPathDirectory));
 
 
